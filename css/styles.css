@@ -10,3 +10,21 @@
 	--customer--no--active--collor: #8e8f99;
 }
 /* Colors */
+body {
+	font-family: "Roboto", sans-serif;
+	color: var(--navy-collor);
+	background-color: var(--body-collor);
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+	margin: 0;
+}
+ul {
+	margin: 0;
+	padding: 0;
+}

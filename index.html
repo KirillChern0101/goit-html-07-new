@@ -34,6 +34,11 @@
 						<li class="header-item"><a class="header-link link" href="">Contacts</a></li>
 					</ul>
 				</nav>
+				<button type="button" class="mobile-menu-open js-open-menu"
+					><svg class="action-icon" width="32" height="32">
+						<use href="./images/svg/icons.svg#menu-burger"></use>
+					</svg>
+				</button>
 				<address class="header-add">
 					<ul class="header-add-list list">
 						<li class="header-add-item">
@@ -44,6 +49,52 @@
 						</li>
 					</ul>
 				</address>
+			</div>
+			<div class="mobile-menu js-menu-container">
+				<div class="container mobile-menu-container">
+					<button type="button" class="mobile-menu__close-btn js-close-menu"
+						><svg class="action-icon" width="8" height="8">
+							<use href="./images/svg/icons.svg#close-mobile"></use>
+						</svg>
+					</button>
+					<ul class="site-nav-mobile list">
+						<li class="list-mobile"><a href="./index.html" class="link-mobile current">Studio</a></li>
+						<li class="list-mobile"><a href="./portfolio.html" class="link-mobile">Portfolio</a></li>
+						<li class="list-mobile"><a href="" class="link-mobile">Contacts</a></li>
+					</ul>
+					<div class="contacts-social">
+						<ul class="address-nav-mobile list">
+							<li>
+								<a href="tel:+110001111111" class="tel-mobile">+11 (000) 111-11-11</a>
+							</li>
+							<li>
+								<a href="mailto:info@devstudio.com" class="mail-mobile">info@devstudio.com</a>
+							</li>
+						</ul>
+						<ul class="mobile-social-list list">
+							<li class="mobile-social-item"
+								><a href="" class="mobile-social-link link"
+									><svg class="mob-icon" width="24" height="24">
+										<use href="./images/svg/symbol-defs.svg#icon-instagram-icon"></use></svg></a
+							></li>
+							<li class="mobile-social-item"
+								><a href="" class="mobile-social-link link"
+									><svg class="mob-icon" width="24" height="24">
+										<use href="./images/svg/symbol-defs.svg#icon-twitter-icon"></use></svg></a
+							></li>
+							<li class="mobile-social-item"
+								><a href="" class="mobile-social-link link"
+									><svg class="mob-icon" width="24" height="24">
+										<use href="./images/svg/symbol-defs.svg#icon-facebook-icon"></use></svg></a
+							></li>
+							<li class="mobile-social-item"
+								><a href="" class="mobile-social-link link"
+									><svg class="mob-icon" width="24" height="24">
+										<use href="./images/svg/symbol-defs.svg#icon-linkedin-icon"></use></svg></a
+							></li>
+						</ul>
+					</div>
+				</div>
 			</div>
 		</header>
 		<!--Header-->
@@ -468,6 +519,6 @@
 			crossorigin="anonymous"
 		></script>
 		<script src="./modal.js"></script>
-		<script src="./js/mobile-menu.js"></script>
+		<script src="./mobile-menu.js"></script>
 	</body>
 </html>
